@@ -1,4 +1,4 @@
-https://raw.githubusercontent.com/jorgitoxp/json-files/refs/heads/main/rik%20icons/hdr10.png{
+{
   "customNames" : {
     "(?i)\\bIMAX\\b" : "IMAX",
     "(?i)\\bExtended(?:\\.Cut)?\\b" : "Extended Cut",
