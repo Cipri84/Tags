@@ -1,4 +1,4 @@
-{
+https://raw.githubusercontent.com/jorgitoxp/json-files/refs/heads/main/rik%20icons/hdr10.png{
   "customNames" : {
     "(?i)\\bIMAX\\b" : "IMAX",
     "(?i)\\bExtended(?:\\.Cut)?\\b" : "Extended Cut",
@@ -23,7 +23,7 @@
     "(?i)\\bSpecial\\.Edition\\b" : "https://files.catbox.moe/ggi7xh.png",
     "(?i)\\bremux\\b" : "https://files.catbox.moe/0l67yh.png",
     "(?i)\\bWEB(?:-DL|Rip)?\\b" : "https://files.catbox.moe/a04175.png",
-    "(?i)\\b(?:HDR|HDR10)\\b" : "https://raw.githubusercontent.com/jorgitoxp/json-files/refs/heads/main/rik%20icons/hdr10%2B.png",
+    "(?i)\\b(?:HDR|HDR10)\\b" : "https://raw.githubusercontent.com/jorgitoxp/json-files/refs/heads/main/rik%20icons/hdr10.png",
     "(?:🇵🇹|🇧🇷|Por|POR|por|Portuguese|portuguese|PORTUGUESE)" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/2560px-Flag_of_Portugal.svg.png",
     
     "(?i)\\b(bd|hd|m)?2160[pi]?\\b|\\b4k\\b|\\bu(ltra)?[ ._-]?hd\\b|\\b3840\\s?x\\s?\\d{4}\\b" : "https://raw.githubusercontent.com/jorgitoxp/Regexes/refs/heads/main/mousa.m%20icons/4k.png",
