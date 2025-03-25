@@ -1,216 +1,151 @@
 {
-  "groups": [
-    {
-      "id": "550e8400-e29b-41d4-a716-446655440000",
-      "name": "Resolution",
-      "color": "#4ECDC4",
-      "isExpanded": true
-    },
-    {
-      "id": "7c211433-9f2b-4e2f-9b8c-2f9a8e8c8b1e",
-      "name": "Media Source",
-      "color": "#96CEB4",
-      "isExpanded": true
-    },
-    {
-      "id": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
-      "name": "Dynamic Range",
-      "color": "#FF6B6B",
-      "isExpanded": true
-    },
-    {
-      "id": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
-      "name": "Audio",
-      "color": "#45B7D1",
-      "isExpanded": true
-    },
-    {
-      "id": "9f8e7d6c-3b2a-4f1e-9c8d-5a6b7e4f3d2c",
-      "name": "Audio Channels",
-      "color": "#FFD700",
-      "isExpanded": true
-    }
+  "customNames" : {
+    "(?i)\\bIMAX\\b" : "IMAX",
+    "(?i)\\bExtended(?:\\.Cut)?\\b" : "Extended Cut",
+    "(?i)\\bSpecial\\.Edition\\b" : "Special Edition",
+    "(?i)\\bremux\\b" : "REMUX",
+    "(?i)\\bWEB(?:-DL|Rip)?\\b" : "WEB-DL",
+    "(?i)\\b(?:HDR|HDR10)\\b" : "HDR10",
+    "(?:🇵🇹|🇧🇷|Por|POR|por|Portuguese|portuguese|PORTUGUESE)" : "Português",
+    
+    "(?i)\\b(bd|hd|m)?1080[pi]?\\b|\\b1920\\s?x\\s?\\d{3,4}\\b" : "1080p",
+    "(?i)\\b(bd|hd|m)?720[pi]?\\b|\\b1280\\s?x\\s?\\d{3,4}\\b" : "720p",
+    "(?i)\\b(bd|hd|m)?2160[pi]?\\b|\\b4k\\b|\\bu(ltra)?[ ._-]?hd\\b|\\b3840\\s?x\\s?\\d{4}\\b" : "2160p",
+    "(?i)\\bdts[ .\\-_]?hd(?![ .\\-_]?ma)\\b" : "DTS-HD",
+    "(?i)true[ .\\-_]?hd" : "TRUEHD",
+    "(?i)\\batmos\\b" : "ATMOS",
+    "(?i)\\bsdr\\b" : "SDR",
+    "(?i)\\b(dv|dovi|dolby[ .]?v(ision)?)\\b(?!.*\\b(HDR(10)?(P(lus)?)?|HLG|SDR)\\b)" : "DV"
+  },
+  "version" : "1.1.0",
+  "imageURLs" : {
+    "(?i)\\bIMAX\\b" : "https://files.catbox.moe/2yiz7q.png",
+    "(?i)\\bExtended(?:\\.Cut)?\\b" : "https://files.catbox.moe/mlf8uj.png",
+    "(?i)\\bSpecial\\.Edition\\b" : "https://files.catbox.moe/ggi7xh.png",
+    "(?i)\\bremux\\b" : "https://files.catbox.moe/0l67yh.png",
+    "(?i)\\bWEB(?:-DL|Rip)?\\b" : "https://files.catbox.moe/a04175.png",
+    "(?i)\\b(?:HDR|HDR10)\\b" : "https://raw.githubusercontent.com/jorgitoxp/json-files/refs/heads/main/rik%20icons/hdr10.png",
+    "(?:🇵🇹|🇧🇷|Por|POR|por|Portuguese|portuguese|PORTUGUESE)" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/2560px-Flag_of_Portugal.svg.png",
+    
+    "(?i)\\b(bd|hd|m)?2160[pi]?\\b|\\b4k\\b|\\bu(ltra)?[ ._-]?hd\\b|\\b3840\\s?x\\s?\\d{4}\\b" : "https://raw.githubusercontent.com/jorgitoxp/Regexes/refs/heads/main/mousa.m%20icons/4k.png",
+    "(?i)\\b(bd|hd|m)?720[pi]?\\b|\\b1280\\s?x\\s?\\d{3,4}\\b" : "https://raw.githubusercontent.com/jorgitoxp/Regexes/refs/heads/main/mousa.m%20icons/720p.png",
+    "(?i)\\b(bd|hd|m)?1080[pi]?\\b|\\b1920\\s?x\\s?\\d{3,4}\\b" : "https://raw.githubusercontent.com/jorgitoxp/Regexes/refs/heads/main/mousa.m%20icons/1080p.png",
+    "(?i)\\bdts[ .\\-_]?hd(?![ .\\-_]?ma)\\b" : "https://raw.githubusercontent.com/jorgitoxp/Regexes/refs/heads/main/mousa.m%20icons/dtsHD.png",
+    "(?i)true[ .\\-_]?hd" : "https://raw.githubusercontent.com/jorgitoxp/Regexes/refs/heads/main/mousa.m%20icons/TrueHD.png",
+    "(?i)\\batmos\\b" : "https://raw.githubusercontent.com/jorgitoxp/Regexes/refs/heads/main/mousa.m%20icons/Atmos.png",
+    "(?i)\\bsdr\\b" : "https://raw.githubusercontent.com/jorgitoxp/Regexes/refs/heads/main/mousa.m%20icons/SDR.png",
+    "(?i)\\b(dv|dovi|dolby[ .]?v(ision)?)\\b(?!.*\\b(HDR(10)?(P(lus)?)?|HLG|SDR)\\b)" : "https://raw.githubusercontent.com/jorgitoxp/Regexes/refs/heads/main/mousa.m%20icons/DV.png"
+  },
+  "borderRadiusIndices" : {
+    "(?i)\\bIMAX\\b" : 3,
+    "(?i)\\bExtended(?:\\.Cut)?\\b" : 3,
+    "(?i)\\bSpecial\\.Edition\\b" : 3,
+    "(?i)\\bremux\\b" : 3,
+    "(?i)\\bWEB(?:-DL|Rip)?\\b" : 3,
+    "(?i)\\b(?:HDR|HDR10)\\b" : 3,
+    "(?:🇵🇹|🇧🇷|Por|POR|por|Portuguese|portuguese|PORTUGUESE)" : 3,
+    
+    "(?i)\\b(bd|hd|m)?2160[pi]?\\b|\\b4k\\b|\\bu(ltra)?[ ._-]?hd\\b|\\b3840\\s?x\\s?\\d{4}\\b" : 3,
+    "(?i)\\b(bd|hd|m)?1080[pi]?\\b|\\b1920\\s?x\\s?\\d{3,4}\\b" : 3,
+    "(?i)\\b(bd|hd|m)?720[pi]?\\b|\\b1280\\s?x\\s?\\d{3,4}\\b" : 3,
+    "(?i)\\bdts[ .\\-_]?hd(?![ .\\-_]?ma)\\b" : 3,
+    "(?i)true[ .\\-_]?hd" : 3,
+    "(?i)\\batmos\\b" : 3,
+    "(?i)\\bsdr\\b" : 3,
+    "(?i)\\b(dv|dovi|dolby[ .]?v(ision)?)\\b(?!.*\\b(HDR(10)?(P(lus)?)?|HLG|SDR)\\b)" : 3
+  },
+  "backgroundOpacities" : {
+    "(?i)\\bIMAX\\b" : 1,
+    "(?i)\\bExtended(?:\\.Cut)?\\b" : 1,
+    "(?i)\\bSpecial\\.Edition\\b" : 1,
+    "(?i)\\bremux\\b" : 1,
+    "(?i)\\bWEB(?:-DL|Rip)?\\b" : 1,
+    "(?i)\\b(?:HDR|HDR10)\\b" : 1,
+    "(?:🇵🇹|🇧🇷|Por|POR|por|Portuguese|portuguese|PORTUGUESE)" : 1,
+    
+    "(?i)\\b(bd|hd|m)?2160[pi]?\\b|\\b4k\\b|\\bu(ltra)?[ ._-]?hd\\b|\\b3840\\s?x\\s?\\d{4}\\b" : 1,
+    "(?i)\\b(bd|hd|m)?1080[pi]?\\b|\\b1920\\s?x\\s?\\d{3,4}\\b" : 1,
+    "(?i)\\b(bd|hd|m)?720[pi]?\\b|\\b1280\\s?x\\s?\\d{3,4}\\b" : 1,
+    "(?i)\\bdts[ .\\-_]?hd(?![ .\\-_]?ma)\\b" : 1,
+    "(?i)true[ .\\-_]?hd" : 1,
+    "(?i)\\batmos\\b" : 1,
+    "(?i)\\bsdr\\b" : 1,
+    "(?i)\\b(dv|dovi|dolby[ .]?v(ision)?)\\b(?!.*\\b(HDR(10)?(P(lus)?)?|HLG|SDR)\\b)" : 1
+  },
+  "tagEnabled" : [
+    "(?i)\\bIMAX\\b",
+    "(?i)\\bExtended(?:\\.Cut)?\\b",
+    "(?i)\\bSpecial\\.Edition\\b",
+    "(?i)\\bremux\\b",
+    "(?i)\\bWEB(?:-DL|Rip)?\\b",
+    "(?i)\\b(?:HDR|HDR10)\\b",
+    "(?:🇵🇹|🇧🇷|Por|POR|por|Portuguese|portuguese|PORTUGUESE)",
+    
+    "(?i)\\b(bd|hd|m)?2160[pi]?\\b|\\b4k\\b|\\bu(ltra)?[ ._-]?hd\\b|\\b3840\\s?x\\s?\\d{4}\\b",
+    "(?i)\\b(bd|hd|m)?1080[pi]?\\b|\\b1920\\s?x\\s?\\d{3,4}\\b",
+    "(?i)\\b(bd|hd|m)?720[pi]?\\b|\\b1280\\s?x\\s?\\d{3,4}\\b",
+    "(?i)\\bdts[ .\\-_]?hd(?![ .\\-_]?ma)\\b",
+    "(?i)true[ .\\-_]?hd",
+    "(?i)\\batmos\\b",
+    "(?i)\\bsdr\\b",
+    "(?i)\\b(dv|dovi|dolby[ .]?v(ision)?)\\b(?!.*\\b(HDR(10)?(P(lus)?)?|HLG|SDR)\\b)"
   ],
-  "filters": [
-    {
-      "id": "a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d",
-      "name": "1080p",
-      "pattern": "(?i)\\b(bd|hd|m)?1080[pi]?\\b|\\b1920\\s?x\\s?\\d{3,4}\\b",
-      "type": "filter",
-      "isEnabled": true,
-      "tagStyle": "filled",
-      "tagColor": "#000000",
-      "textColor": "#FFFFFF",
-      "imageURL": "https://raw.githubusercontent.com/jorgitoxp/Regexes/refs/heads/main/mousa.m%20icons/1080p.png",
-      "groupId": "550e8400-e29b-41d4-a716-446655440000"
-    },
-    {
-      "id": "b2c3d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e",
-      "name": "720p",
-      "pattern": "(?i)\\b(bd|hd|m)?720[pi]?\\b|\\b1280\\s?x\\s?\\d{3,4}\\b",
-      "type": "filter",
-      "isEnabled": true,
-      "tagStyle": "filled",
-      "tagColor": "#000000",
-      "textColor": "#FFFFFF",
-      "imageURL": "https://raw.githubusercontent.com/jorgitoxp/Regexes/refs/heads/main/mousa.m%20icons/720p.png",
-      "groupId": "550e8400-e29b-41d4-a716-446655440000"
-    },
-    {
-      "id": "9f1a2b3c-4d5e-6f7a-8b9c-0d1e2f3a4b5c",
-      "name": "2160p",
-      "pattern": "(?i)\\b(bd|hd|m)?2160[pi]?\\b|\\b4k\\b|\\bu(ltra)?[ ._-]?hd\\b|\\b3840\\s?x\\s?\\d{4}\\b",
-      "type": "filter",
-      "isEnabled": true,
-      "tagStyle": "filled",
-      "tagColor": "#000000",
-      "textColor": "#FFFFFF",
-      "imageURL": "https://raw.githubusercontent.com/jorgitoxp/Regexes/refs/heads/main/mousa.m%20icons/4k.png",
-      "groupId": "550e8400-e29b-41d4-a716-446655440000"
-    },
-    {
-      "id": "f6a7b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c",
-      "name": "DV",
-      "pattern": "(?i)\\b(dv|dovi|dolby[ .]?v(ision)?)\\b(?!.*\\b(HDR(10)?(P(lus)?)?|HLG|SDR)\\b)",
-      "type": "filter",
-      "isEnabled": true,
-      "tagStyle": "filled",
-      "tagColor": "#000000",
-      "textColor": "#FFFFFF",
-      "imageURL": "https://raw.githubusercontent.com/jorgitoxp/Regexes/refs/heads/main/mousa.m%20icons/DV.png",
-      "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8"
-    },
-    {
-      "id": "a7b8c9d0-e1f2-3a4b-5c6d-7e8f9a0b1c2d",
-      "name": "SDR",
-      "pattern": "(?i)\\bsdr\\b",
-      "type": "filter",
-      "isEnabled": true,
-      "tagStyle": "filled",
-      "tagColor": "#000000",
-      "textColor": "#FFFFFF",
-      "imageURL": "https://raw.githubusercontent.com/jorgitoxp/json-files/refs/heads/main/rik%20icons/sdr.png",
-      "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8"
-    },
-    {
-      "id": "a3b4c5d6-e7f8-9a0b-1c2d-3e4f5a6b7c8d",
-      "name": "Dolby Atmos",
-      "pattern": "(?i)\\batmos\\b",
-      "type": "filter",
-      "isEnabled": true,
-      "tagStyle": "filled",
-      "tagColor": "#000000",
-      "textColor": "#FFFFFF",
-      "imageURL": "https://raw.githubusercontent.com/jorgitoxp/Regexes/refs/heads/main/mousa.m%20icons/Atmos.png",
-      "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f"
-    },
-    {
-      "id": "d6e7f8a9-b0c1-2d3e-4f5a-6b7c8d9e0f1a",
-      "name": "TrueHD",
-      "pattern": "(?i)true[ .\\-_]?hd",
-      "type": "filter",
-      "isEnabled": true,
-      "tagStyle": "filled",
-      "tagColor": "#000000",
-      "textColor": "#FFFFFF",
-      "imageURL": "https://raw.githubusercontent.com/jorgitoxp/Regexes/refs/heads/main/mousa.m%20icons/TrueHD.png",
-      "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f"
-    },
-    {
-      "id": "b8c5d6e7-f8a9-0b1c-2d3e-4f1a6b7c8d9e",
-      "name": "Dolby Digital +",
-      "pattern": "(?i:(d(?:olby)?[ .\\-_]?d(?:igital)?[ .\\-_]?(?:p(?:lus)?|\\+)(?:[ .\\-_]?(?:5[ .\\-_]?1|7[ .\\-_]?1))?)|e[ .\\-_]?ac[ .\\-_]?3)",
-      "type": "filter",
-      "isEnabled": true,
-      "tagStyle": "filled",
-      "tagColor": "#000000",
-      "textColor": "#FFFFFF",
-      "imageURL": "https://raw.githubusercontent.com/jorgitoxp/Regexes/refs/heads/main/mousa.m%20icons/DDPLUS.png",
-      "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f"
-    },
-    {
-      "id": "adf35c22-b1c0-4dfa-95e3-1a6b2c5d3e8f",
-      "name": "IMAX",
-      "pattern": "(?i)\\bIMAX\\b",
-      "type": "filter",
-      "isEnabled": true,
-      "tagStyle": "filled",
-      "tagColor": "#000000",
-      "textColor": "#FFFFFF",
-      "imageURL": "https://files.catbox.moe/2yiz7q.png",
-      "groupId": "7c211433-9f2b-4e2f-9b8c-2f9a8e8c8b1e"
-    },
-    {
-      "id": "dce45f88-a2b1-4c9d-8e7f-6a5b4c3d2e1f",
-      "name": "Extended Cut",
-      "pattern": "(?i)\\bExtended(?:\\.Cut)?\\b",
-      "type": "filter",
-      "isEnabled": true,
-      "tagStyle": "filled",
-      "tagColor": "#000000",
-      "textColor": "#FFFFFF",
-      "imageURL": "https://files.catbox.moe/mlf8uj.png",
-      "groupId": "7c211433-9f2b-4e2f-9b8c-2f9a8e8c8b1e"
-    },
-    {
-      "id": "bae98764-c2d1-4e3f-8a5b-6c7d8e9f0a1b",
-      "name": "Special Edition",
-      "pattern": "(?i)\\bSpecial\\.Edition\\b",
-      "type": "filter",
-      "isEnabled": true,
-      "tagStyle": "filled",
-      "tagColor": "#000000",
-      "textColor": "#FFFFFF",
-      "imageURL": "https://files.catbox.moe/ggi7xh.png",
-      "groupId": "7c211433-9f2b-4e2f-9b8c-2f9a8e8c8b1e"
-    },
-    {
-      "id": "f3e2d1c0-b9a8-47d6-95e4-3c2b1a0d9e8f",
-      "name": "REMUX",
-      "pattern": "(?i)\\bremux\\b",
-      "type": "filter",
-      "isEnabled": true,
-      "tagStyle": "filled",
-      "tagColor": "#000000",
-      "textColor": "#FFFFFF",
-      "imageURL": "https://files.catbox.moe/0l67yh.png",
-      "groupId": "7c211433-9f2b-4e2f-9b8c-2f9a8e8c8b1e"
-    },
-    {
-      "id": "a9b8c7d6-e5f4-4a3b-2c1d-0e9f8a7b6c5d",
-      "name": "WEB-DL",
-      "pattern": "(?i)\\bWEB(?:-DL|Rip)?\\b",
-      "type": "filter",
-      "isEnabled": true,
-      "tagStyle": "filled",
-      "tagColor": "#000000",
-      "textColor": "#FFFFFF",
-      "imageURL": "https://files.catbox.moe/a04175.png",
-      "groupId": "7c211433-9f2b-4e2f-9b8c-2f9a8e8c8b1e"
-    },
-    {
-      "id": "d7e6f5a4-b3c2-4d1e-0f9e-8a7b6c5d4e3f",
-      "name": "HDR10",
-      "pattern": "(?i)\\b(?:HDR|HDR10)\\b",
-      "type": "filter",
-      "isEnabled": true,
-      "tagStyle": "filled",
-      "tagColor": "#000000",
-      "textColor": "#FFFFFF",
-      "imageURL": "https://raw.githubusercontent.com/jorgitoxp/json-files/refs/heads/main/rik%20icons/hdr10.png",
-      "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8"
-    },
-    {
-      "id": "c1b2a3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6",
-      "name": "Português",
-      "pattern": "(?:🇵🇹|🇧🇷|Por|POR|por|Portuguese|portuguese|PORTUGUESE)",
-      "type": "filter",
-      "isEnabled": true,
-      "tagStyle": "filled",
-      "tagColor": "#000000",
-      "textColor": "#FFFFFF",
-      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/2560px-Flag_of_Portugal.svg.png",
-      "groupId": "7c211433-9f2b-4e2f-9b8c-2f9a8e8c8b1e"
-    }
-  ]
+  "patterns" : [
+    "(?i)\\bIMAX\\b",
+    "(?i)\\bExtended(?:\\.Cut)?\\b",
+    "(?i)\\bSpecial\\.Edition\\b",
+    "(?i)\\bremux\\b",
+    "(?i)\\bWEB(?:-DL|Rip)?\\b",
+    "(?i)\\b(?:HDR|HDR10)\\b",
+    "(?:🇵🇹|🇧🇷|Por|POR|por|Portuguese|portuguese|PORTUGUESE)",
+    
+    "(?i)\\b(bd|hd|m)?2160[pi]?\\b|\\b4k\\b|\\bu(ltra)?[ ._-]?hd\\b|\\b3840\\s?x\\s?\\d{4}\\b",
+    "(?i)\\b(bd|hd|m)?1080[pi]?\\b|\\b1920\\s?x\\s?\\d{3,4}\\b",
+    "(?i)\\b(bd|hd|m)?720[pi]?\\b|\\b1280\\s?x\\s?\\d{3,4}\\b",
+    "(?i)\\bdts[ .\\-_]?hd(?![ .\\-_]?ma)\\b",
+    "(?i)true[ .\\-_]?hd",
+    "(?i)\\batmos\\b",
+    "(?i)\\bsdr\\b",
+    "(?i)\\b(dv|dovi|dolby[ .]?v(ision)?)\\b(?!.*\\b(HDR(10)?(P(lus)?)?|HLG|SDR)\\b)"
+  ],
+  "colorHexValues" : {
+    "(?i)\\bIMAX\\b" : "#000000",
+    "(?i)\\bExtended(?:\\.Cut)?\\b" : "#000000",
+    "(?i)\\bSpecial\\.Edition\\b" : "#000000",
+    "(?i)\\bremux\\b" : "#000000",
+    "(?i)\\bWEB(?:-DL|Rip)?\\b" : "#000000",
+    "(?i)\\b(?:HDR|HDR10)\\b" : "#000000",
+    "(?:🇵🇹|🇧🇷|Por|POR|por|Portuguese|portuguese|PORTUGUESE)" : "#000000",
+    
+    "(?i)\\b(bd|hd|m)?2160[pi]?\\b|\\b4k\\b|\\bu(ltra)?[ ._-]?hd\\b|\\b3840\\s?x\\s?\\d{4}\\b" : "#000000",
+    "(?i)\\b(bd|hd|m)?1080[pi]?\\b|\\b1920\\s?x\\s?\\d{3,4}\\b" : "#000000",
+    "(?i)\\b(bd|hd|m)?720[pi]?\\b|\\b1280\\s?x\\s?\\d{3,4}\\b" : "#000000",
+    "(?i)\\bdts[ .\\-_]?hd(?![ .\\-_]?ma)\\b" : "#000000",
+    "(?i)true[ .\\-_]?hd" : "#000000",
+    "(?i)\\batmos\\b" : "#000000",
+    "(?i)\\bsdr\\b" : "#000000",
+    "(?i)\\b(dv|dovi|dolby[ .]?v(ision)?)\\b(?!.*\\b(HDR(10)?(P(lus)?)?|HLG|SDR)\\b)" : "#000000"
+  },
+  "borderThicknessIndices" : {
+    "(?i)\\bIMAX\\b" : 2,
+    "(?i)\\bExtended(?:\\.Cut)?\\b" : 2,
+    "(?i)\\bSpecial\\.Edition\\b" : 2,
+    "(?i)\\bremux\\b" : 2,
+    "(?i)\\bWEB(?:-DL|Rip)?\\b" : 2,
+    "(?i)\\b(?:HDR|HDR10)\\b" : 2,
+    "(?:🇵🇹|🇧🇷|Por|POR|por|Portuguese|portuguese|PORTUGUESE)" : 2,
+    
+    "(?i)\\b(bd|hd|m)?2160[pi]?\\b|\\b4k\\b|\\bu(ltra)?[ ._-]?hd\\b|\\b3840\\s?x\\s?\\d{4}\\b" : 2,
+    "(?i)\\b(bd|hd|m)?1080[pi]?\\b|\\b1920\\s?x\\s?\\d{3,4}\\b" : 2,
+    "(?i)\\b(bd|hd|m)?720[pi]?\\b|\\b1280\\s?x\\s?\\d{3,4}\\b" : 2,
+    "(?i)\\bdts[ .\\-_]?hd(?![ .\\-_]?ma)\\b" : 2,
+    "(?i)true[ .\\-_]?hd" : 2,
+    "(?i)\\batmos\\b" : 2,
+    "(?i)\\bsdr\\b" : 2,
+    "(?i)\\b(dv|dovi|dolby[ .]?v(ision)?)\\b(?!.*\\b(HDR(10)?(P(lus)?)?|HLG|SDR)\\b)" : 2
+  },
+  "exportDate" : "2025-03-07T18:28:26Z",
+  "colorIndices" : {},
+  "autoPlayEnabled" : [],
+  "defaultFilterEnabled" : []
 }
