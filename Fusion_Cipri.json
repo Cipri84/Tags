@@ -29,6 +29,12 @@
       "name": "Audio Channels",
       "color": "#FFD700",
       "isExpanded": true
+    },
+    {
+      "id": "a1b2c3d4-e5f6-7g8h-9i0j-1k2l3m4n5o6p",
+      "name": "Special Editions",
+      "color": "#9B59B6",
+      "isExpanded": true
     }
   ],
   "filters": [
@@ -95,7 +101,7 @@
     {
       "id": "f6a7b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c",
       "name": "DV",
-      "pattern": "(?i)\\b(dv|dovi|dolby[ .]?v(ision)?)\\b(?!.*\\b(HDR(10)?(P(lus)?)?|HLG|SDR)\\b)",
+      "pattern": "(?i)\\b(DV|Dolby\\s?Vision|DoVi|HDR10\\+? DV|DV HDR10\\+?)\\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
@@ -155,7 +161,7 @@
     {
       "id": "b8c5d6e7-f8a9-0b1c-2d3e-4f5a6b7c8d9e",
       "name": "DTS-HD",
-      "pattern": "(?i)\\bdts[ .\\-_]?hd(?![ .\\-_]?ma)\\b",
+      "pattern": "(?i)\\bDTS(?:-HD)?\\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
@@ -186,7 +192,7 @@
       "tagColor": "#000000",
       "textColor": "#FFFFFF",
       "imageURL": "https://files.catbox.moe/mlf8uj.png",
-      "groupId": "7c211433-9f2b-4e2f-9b8c-2f9a8e8c8b1e"
+      "groupId": "a1b2c3d4-e5f6-7g8h-9i0j-1k2l3m4n5o6p"
     },
     {
       "id": "d4e5f6a7-b8c9-0d1e-2f3a-3b5c6d7e8f9e",
@@ -198,7 +204,31 @@
       "tagColor": "#000000",
       "textColor": "#FFFFFF",
       "imageURL": "https://files.catbox.moe/ggi7xh.png",
-      "groupId": "7c211433-9f2b-4e2f-9b8c-2f9a8e8c8b1e"
+      "groupId": "a1b2c3d4-e5f6-7g8h-9i0j-1k2l3m4n5o6p"
+    },
+    {
+      "id": "e5f6a7b8-c9d0-1e2f-3a4b-5c6d7e8f9a0b",
+      "name": "Director's Cut",
+      "pattern": "(?i)\\bDirectors?[.\\s]+Cut\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "https://files.catbox.moe/33j1vx.png",
+      "groupId": "a1b2c3d4-e5f6-7g8h-9i0j-1k2l3m4n5o6p"
+    },
+    {
+      "id": "f6a7b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1d",
+      "name": "Final Cut",
+      "pattern": "(?i)\\bFinal[.\\s]+Cut\\b",
+      "type": "filter",
+      "isEnabled": true,
+      "tagStyle": "filled",
+      "tagColor": "#000000",
+      "textColor": "#FFFFFF",
+      "imageURL": "https://files.catbox.moe/3hbvs1.png",
+      "groupId": "a1b2c3d4-e5f6-7g8h-9i0j-1k2l3m4n5o6p"
     },
     {
       "id": "d4e5f6a7-b8c9-0d1e-2f3a-3b5c6d7e8f9f",
