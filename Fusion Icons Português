@@ -7,7 +7,7 @@
       "imageURL" : "https:\/\/raw.githubusercontent.com\/Cipri84\/Imagens-Fusion\/main\/Melhor-Remux%20grande.png",
       "isEnabled" : true,
       "name" : "Best Remux",
-      "pattern" : "(?i)^(?=.*remux)(?=.*2160p)",
+      "pattern" : "(?i)^(?=.*2160p)(?=.*(remux|blu-?ray))",
       "tagColor" : "#E600E932",
       "tagStyle" : "filled and bordered",
       "textColor" : "#27C04F",
