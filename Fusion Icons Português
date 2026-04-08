@@ -118,6 +118,19 @@
       "type" : "filter"
     },
     {
+      "borderColor" : "#FF3B30",
+      "groupId" : "gq",
+      "id" : "6A69639F-2187-4469-98FF-6C4CD6B0645A",
+      "imageURL" : "https:\/\/raw.githubusercontent.com\/Cipri84\/Imagens-Fusion\/main\/Nao.png",
+      "isEnabled" : true,
+      "name" : "CAMRip",
+      "pattern" : "(?i)\\b(CAM|CAMRip|HDCAM|HC|TS|HDTS|HQ-TS|TELESYNC|PDVD|SCR|SCREENER|DVDSCR|DVDSCREENER|BDSCR|R5|WORKPRINT|WP|TELECINE|TC)\\b",
+      "tagColor" : "#FF6B6B",
+      "tagStyle" : "filled and bordered",
+      "textColor" : "#FFFFFF",
+      "type" : "filter"
+    },
+    {
       "borderColor" : "#FF858283",
       "groupId" : "gq",
       "id" : "d4e5f6a7-b8c9-0d1e-2f3a-3b5c6d7e8f9a",
@@ -477,19 +490,6 @@
       "name" : "Português",
       "pattern" : "(?:🇵🇹|🇧🇷|Por|POR|por|Portuguese|portuguese|PORTUGUESE)",
       "tagColor" : "#33FFFFFF",
-      "tagStyle" : "filled and bordered",
-      "textColor" : "#FFFFFF",
-      "type" : "filter"
-    },
-    {
-      "borderColor" : "#FF3B30",
-      "groupId" : "gq",
-      "id" : "6A69639F-2187-4469-98FF-6C4CD6B0645A",
-      "imageURL" : "https:\/\/raw.githubusercontent.com\/Cipri84\/Imagens-Fusion\/main\/Nao.png",
-      "isEnabled" : true,
-      "name" : "CAMRip",
-      "pattern" : "(?i)\\b(CAM|CAMRip|HDCAM|HC|TS|HDTS|HQ-TS|TELESYNC|PDVD|SCR|SCREENER|DVDSCR|DVDSCREENER|BDSCR|R5|WORKPRINT|WP|TELECINE|TC)\\b",
-      "tagColor" : "#FF6B6B",
       "tagStyle" : "filled and bordered",
       "textColor" : "#FFFFFF",
       "type" : "filter"
