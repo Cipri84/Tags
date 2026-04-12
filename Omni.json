@@ -44,7 +44,7 @@
     "(?i)\\bDTS(?:-HD)?\\b" : "https:\/\/raw.githubusercontent.com\/jorgitoxp\/Regexes\/refs\/heads\/main\/mousa.m%20icons\/dtsHD.png",
     "(?i)\\b(True\\s?HD|TrueHD)\\b" : "https:\/\/raw.githubusercontent.com\/jmxd\/Kometa\/refs\/heads\/main\/overlays\/images\/media_info\/codec\/TrueHD.png",
     "(?i)\\bExtended(?:\\.Cut)?\\b" : "https:\/\/files.catbox.moe\/mlf8uj.png",
-    "(?:🇵🇹|🇧🇷|Por|POR|por|Portuguese|portuguese|PORTUGUESE)" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/5\/5c\/Flag_of_Portugal.svg\/2560px-Flag_of_Portugal.svg.png",
+    "(?:🇵🇹|🇧🇷|Por|POR|por|Portuguese|portuguese|PORTUGUESE)" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/5\/5c\/Flag_of_Portugal.svg\/1280px-Flag_of_Portugal.svg.png",
     "(?i)\\bIMAX\\b" : "https:\/\/files.catbox.moe\/2yiz7q.png",
     "(?i)\\batmos\\b" : "https:\/\/raw.githubusercontent.com\/jorgitoxp\/Regexes\/refs\/heads\/main\/mousa.m%20icons\/Atmos.png",
     "(?i)\\bremux\\b" : "https:\/\/files.catbox.moe\/0l67yh.png",
