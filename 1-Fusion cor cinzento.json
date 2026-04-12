@@ -389,17 +389,7 @@
       "type" : "filter"
     },
     {
-      "borderColor" : "#FF858283",
-      "groupId" : "FBA7D3D5-4CB9-4D33-8BF1-4A3BA48F3811",
-      "id" : "2A7A6804-4920-42BC-BEF5-5E0B4B5134F4",
-      "isEnabled" : true,
-      "name" : "{1}",
-      "pattern" : "(?i)(CiNEPHiLES|AOC|BYNDR|FraMeSToR|DepraveD|EPSiLON|HONE|Flights|SGF|FGT|MainFrame|FLUX|SWTYBLZ|TRiToN|HDT|RARBG|ANON|RU4HD|WKS|ProTem|WiLDCAT|NyaaSi|Comando|BluDV|SPARKS|DHT|W32|Ben The Men|BEN\\.THE\\.MEN|XEBEC)",
-      "tagColor" : "#33FFFFFF",
-      "tagStyle" : "filled and bordered",
-      "textColor" : "#FFFFFF",
-      "type" : "filter"
-    },
+
     {
       "borderColor" : "#FF858283",
       "groupId" : "a1b2c3d4-e5f6-7g8h-9i0j-1k2l3m4n5o6p",
@@ -581,6 +571,18 @@
       "tagStyle" : "filled and bordered",
       "textColor" : "#FFFFFF",
       "type" : "filter"
+    },
+    {
+      "borderColor" : "#FF858283",
+      "groupId" : "gg",
+      "id" : "2A7A6804-4920-42BC-BEF5-5E0B4B5134F4",
+      "isEnabled" : true,
+      "name" : "{1}",
+      "pattern" : "(?i)(CiNEPHiLES|AOC|BYNDR|FraMeSToR|DepraveD|EPSiLON|HONE|Flights|SGF|FGT|MainFrame|FLUX|SWTYBLZ|TRiToN|HDT|RARBG|ANON|RU4HD|WKS|ProTem|WiLDCAT|NyaaSi|Comando|BluDV|SPARKS|DHT|W32|Ben The Men|BEN\\.THE\\.MEN|XEBEC)",
+      "tagColor" : "#33FFFFFF",
+      "tagStyle" : "filled and bordered",
+      "textColor" : "#FFFFFF",
+      "type" : "filter"
     }
   ],
   "groups" : [
@@ -643,6 +645,12 @@
       "id" : "gl",
       "isExpanded" : true,
       "name" : "Language"
+    },
+    {
+      "color" : "#FF9500",
+      "id" : "gg",
+      "isExpanded" : true,
+      "name" : "Grupo de Torrents"
     }
   ]
 }
