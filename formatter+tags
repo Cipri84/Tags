@@ -589,7 +589,7 @@
       "imageURL" : "https:\/\/raw.githubusercontent.com\/Cipri84\/Imagens-Fusion\/refs\/heads\/main\/Crunchyroll.png",
       "isEnabled" : true,
       "name" : "Crunchyroll",
-      "pattern" : "(?i)CR",
+      "pattern" : "(?i)\\b(CR|Crunchyroll|SubsPlease|Erai-raws|HorribleSubs)\\b",
       "tagColor" : "#00000000",
       "tagStyle" : "filled",
       "textColor" : "#FFFFFF",
