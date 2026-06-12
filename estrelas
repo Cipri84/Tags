@@ -210,7 +210,7 @@
     },
     {
       "borderColor" : "#00000000",
-      "groupId" : "gv",
+      "groupId" : "a1b2c3d4-e5f6-7g8h-9i0j-1k2l3m4n5o6p",
       "id" : "v-imax-e",
       "imageURL" : "https:\/\/raw.githubusercontent.com\/9mousaa\/BetterFormatter\/main\/images\/IMAX-enhanced.png",
       "isEnabled" : true,
@@ -223,7 +223,7 @@
     },
     {
       "borderColor" : "#00000000",
-      "groupId" : "gv",
+      "groupId" : "a1b2c3d4-e5f6-7g8h-9i0j-1k2l3m4n5o6p",
       "id" : "v-imax",
       "imageURL" : "https:\/\/raw.githubusercontent.com\/9mousaa\/BetterFormatter\/main\/images\/IMAX.png",
       "isEnabled" : true,
